@@ -34,7 +34,7 @@ void Banner() {
         {1,0,0,0, 1,1,1,0,  1,0,0,1,1,0,  1,1,1,1, 0,1,0,0,1,0, 1,0,1,0, 1,1,1,0, 1,0,0,1,1}  // Baris 5
     };
     for (int i = 0; i < 5; i++) {
-        for (int j = 0; j < 100; j++) {
+        for (int j = 0; j < 38; j++) {
             if (pola[i][j] == 1) {
                 std::cout << merah << "  " << reset; 
             } else {
